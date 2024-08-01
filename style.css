@@ -1,0 +1,58 @@
+html {
+    background-color: #a4f52a;
+    color: #000F08;
+    margin-top: 5%;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-header {
+    margin-bottom: 0px;
+}
+
+.main-container {
+    width: 800px;
+    margin-left: 60px;
+}
+
+.new-task-input {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(164, 245, 42);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #000F08;
+    font-family: system-ui;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.add-button {
+    background-color: #000F08;
+    color: #a4f52a;
+    border-radius: 8px;
+    font-family: system-ui;
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.add-button:active {
+    opacity: 0.4;
+}
+
+.list-of-tasks {
+    margin-top: 10px;
+}
+
+.task-element {
+    transition: color 0.3s;
+    cursor:none;
+}
+
+.task-element:hover {
+    color: #F85A3E;
+}
